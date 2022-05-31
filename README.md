@@ -57,7 +57,10 @@ Required packages :
    
   * jupyter
 
+## Informations
 
+This course has been created 
+https://indico.math.cnrs.fr/event/6564/
 
 ## Affiliations and websites of the authors 
 
