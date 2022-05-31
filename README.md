@@ -1,5 +1,5 @@
 # ProxImage
-Image analysis and proximal algorithms
+Proximal algorithms for image analysis
 
 ## Authors
 
@@ -35,7 +35,8 @@ Image processing  aims to extract or interpret the information contained in the 
 
 3- Image denoising with Plug-and-Play Forward-Backward
 
-Required packages :
+
+## Required packages :
 
   * numpy
   
@@ -59,14 +60,12 @@ Required packages :
 
 ## Informations
 
-This course has been created 
-https://indico.math.cnrs.fr/event/6564/
+This course has been created for ["Journées SMAI-MODE 2022, Limoges"](https://indico.math.cnrs.fr/event/6564/)
 
 ## Affiliations and websites of the authors 
 
-Nelly Pustelnik: CNRS, Laboratoire de Physique, ENS de Lyon and INMA, UCLouvain
-http://perso.ens-lyon.fr/nelly.pustelnik/
+[Nelly Pustelnik](http://perso.ens-lyon.fr/nelly.pustelnik/): CNRS, Laboratoire de Physique, ENS de Lyon and INMA, UCLouvain
 
-Audrey Repetti : Heriot-Watt University
-https://sites.google.com/view/audreyrepetti
+[Audrey Repetti](https://sites.google.com/view/audreyrepetti) : Heriot-Watt University
+
 
