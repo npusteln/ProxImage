@@ -13,7 +13,7 @@ Image processing  aims to extract or interpret the information contained in the 
 
 ## Slides of the course
 
-1-  Inverse problems and variational approaches
+1-  Inverse problems and variational approaches [pdf](https://github.com/npusteln/ProxImage/raw/main/Slides/Part1.pdf)
 
 2- Variational approaches: From inverse problems to segmentation
 
