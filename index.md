@@ -1,10 +1,8 @@
 ## Authors
 
-Nelly Pustelnik
-nelly.pustelnik@ens-lyon.fr 
+Nelly Pustelnik - nelly.pustelnik@ens-lyon.fr 
 
-Audrey Repetti
-A.Repetti@hw.ac.uk
+Audrey Repetti - A.Repetti@hw.ac.uk
 
 
 
