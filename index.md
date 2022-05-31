@@ -1,37 +1,71 @@
-## Welcome to GitHub Pages
+# ProxImage
+Image analysis and proximal algorithms
 
-You can use the [editor on GitHub](https://github.com/npusteln/ProxImage/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Authors
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### Nelly Pustelnik, nelly.pustelnik@ens-lyon.fr 
 
-### Markdown
+#### Audrey Repetti, A.Repetti@hw.ac.uk
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Summary
 
-```markdown
-Syntax highlighted code block
+Image processing  aims to extract or interpret the information contained in the observed data linked to one (or more) image(s). Most of the analysis tools are based on the formulation of an objective function and the development of suitable optimization methods. This class of approaches, qualified as variational, has become the state-of-the-art for many image processing modalities, thanks to their ability to deal with large-scale problems, their versatility allowing them to be adapted to different contexts, as well as the associated theoretical results ensuring convergence towards a solution of the finite objective function.
 
-# Header 1
-## Header 2
-### Header 3
+## Slides of the course
 
-- Bulleted
-- List
+1-  Inverse problems and variational approaches
 
-1. Numbered
-2. List
+2- Variational approaches: From inverse problems to segmentation
 
-**Bold** and _Italic_ and `Code` text
+3- Variational approaches in supervised learning
 
-[Link](url) and ![Image](src)
-```
+4- Optimisation algorithms
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+5- Optimisation algorithms: Block-coordinate approaches
 
-### Jekyll Themes
+6- Supervised learning for solving inverse problems 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/npusteln/ProxImage/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Python notebook
+
+1- Play with direct model
+
+2- Image deconvolution considering Forward-Backward algorithm, FISTA and Condat-Vu algorithm
+
+3- Image denoising with Plug-and-Play Forward-Backward
+
+Required packages :
+
+  * numpy
+  
+  * matplotlib
+  
+  * PIL
+   
+  * scipy
+   
+  * pywt
+   
+  * bm3d
+   
+  * torch
+   
+  * numba
+   
+  * pylobs
+   
+  * jupyter
+
+## Informations
+
+This course has been created for ["Journées SMAI-MODE 2022, Limoges"](https://indico.math.cnrs.fr/event/6564/)
+
+## Affiliations and websites of the authors 
+
+Nelly Pustelnik: CNRS, Laboratoire de Physique, ENS de Lyon and INMA, UCLouvain
+http://perso.ens-lyon.fr/nelly.pustelnik/
+
+Audrey Repetti : Heriot-Watt University
+https://sites.google.com/view/audreyrepetti
+
