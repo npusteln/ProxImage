@@ -1,5 +1,5 @@
 # ProxImage
-Image analysis and proximal algorithms
+Proximal algorithms for image analysis
 
 ## Authors
 
