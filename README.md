@@ -59,8 +59,7 @@ Required packages :
 
 ## Informations
 
-This course has been created 
-https://indico.math.cnrs.fr/event/6564/
+This course has been created for ["Journées SMAI-MODE 2022, Limoges"](https://indico.math.cnrs.fr/event/6564/)
 
 ## Affiliations and websites of the authors 
 
