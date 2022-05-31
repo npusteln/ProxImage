@@ -13,17 +13,17 @@ Image processing  aims to extract or interpret the information contained in the 
 
 ## Slides of the course
 
-1-  Inverse problems and variational approaches [pdf](https://github.com/npusteln/ProxImage/raw/main/Slides/Part1.pdf)
+1-  Inverse problems and variational approaches - [pdf](https://github.com/npusteln/ProxImage/raw/main/Slides/Part1.pdf)
 
-2- Variational approaches: From inverse problems to segmentation
+2- Variational approaches: From inverse problems to segmentation - [pdf](https://github.com/npusteln/ProxImage/raw/main/Slides/Part2.pdf)
 
-3- Variational approaches in supervised learning
+3- Variational approaches in supervised learning - [pdf](https://github.com/npusteln/ProxImage/raw/main/Slides/Part3.pdf)
 
-4- Optimisation algorithms
+4- Optimisation algorithms - [pdf](https://github.com/npusteln/ProxImage/raw/main/Slides/Part4.pdf)
 
-5- Optimisation algorithms: Block-coordinate approaches
+5- Optimisation algorithms: Block-coordinate approaches - [pdf](https://github.com/npusteln/ProxImage/raw/main/Slides/Part5.pdf)
 
-6- Supervised learning for solving inverse problems 
+6- Supervised learning for solving inverse problems - [pdf](https://github.com/npusteln/ProxImage/raw/main/Slides/Part6.pdf)
 
 
 
