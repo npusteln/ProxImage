@@ -26,6 +26,7 @@ Image processing  aims to extract or interpret the information contained in the 
 6- Supervised learning for solving inverse problems 
 
 
+
 ## Python notebook
 
 1- Play with direct model
@@ -33,6 +34,29 @@ Image processing  aims to extract or interpret the information contained in the 
 2- Image deconvolution considering Forward-Backward algorithm, FISTA and Condat-Vu algorithm
 
 3- Image denoising with Plug-and-Play Forward-Backward
+
+Required packages :
+
+  * numpy
+  
+  * matplotlib
+  
+  * PIL
+   
+  * scipy
+   
+  * pywt
+   
+  * bm3d
+   
+  * torch
+   
+  * numba
+   
+  * pylobs
+   
+  * jupyter
+
 
 
 ## Affiliations and websites of the authors 
