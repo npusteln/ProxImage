@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 
 
-
+# source https://matthieutrs.github.io/
 
 def coef2vec(coef, Nx, Ny):
     """
@@ -69,55 +69,6 @@ def waverec_asarray(wd, book, wv='db8'):
     im = pywt.waverec2(wc,wv, mode='zero')
     return im
 
-# c_np, book = wavedec_asarray(im,'db8',level=3)
-# r = waverec_asarray(c_np, book, wv='db8')
-
-def SARA_dict(im, level=3):
-    
-    c_1, b_1 = wavedec_asarray(im,'db1',level=level)
-    ncoef1 = len(c_1)
-    c_2, b_2 = wavedec_asarray(im,'db2',level=level)
-    ncoef2 = len(c_2)
-    c_3, b_3 = wavedec_asarray(im,'db3',level=level)
-    ncoef3 = len(c_3)
-    c_4, b_4 = wavedec_asarray(im,'db4',level=level)
-    ncoef4 = len(c_4)
-    c_5, b_5 = wavedec_asarray(im,'db5',level=level)
-    ncoef5 = len(c_5)
-    c_6, b_6 = wavedec_asarray(im,'db6',level=level)
-    ncoef6 = len(c_6)
-    c_7, b_7 = wavedec_asarray(im,'db7',level=level)
-    ncoef7 = len(c_7)
-    c_8, b_8 = wavedec_asarray(im,'db8',level=level)
-    ncoef8 = len(c_8)
-    _, b_9 = im.flatten(), im.shape
-    #ncoef9 = len(c_9)
-    
-    def Psit(x):
-        out = np.concatenate((wavedec_asarray(x,'db1',level=level)[0],
-         wavedec_asarray(x,'db2',level=level)[0],
-         wavedec_asarray(x,'db3',level=level)[0],
-         wavedec_asarray(x,'db4',level=level)[0],
-         wavedec_asarray(x,'db5',level=level)[0],
-         wavedec_asarray(x,'db6',level=level)[0],
-         wavedec_asarray(x,'db7',level=level)[0],
-         wavedec_asarray(x,'db8',level=level)[0],
-         x.flatten()))
-        return out/np.sqrt(9)
-    
-    def Psi(y):
-        out = waverec_asarray(y[:ncoef1], b_1, wv='db1')
-        out = out+waverec_asarray(y[ncoef1:ncoef1+ncoef2], b_2, wv='db2')
-        out = out+waverec_asarray(y[ncoef1+ncoef2:ncoef1+ncoef2+ncoef3], b_3, wv='db3')
-        out = out+waverec_asarray(y[ncoef1+ncoef2+ncoef3:ncoef1+ncoef2+ncoef3+ncoef4], b_4, wv='db4')
-        out = out+waverec_asarray(y[ncoef1+ncoef2+ncoef3+ncoef4:ncoef1+ncoef2+ncoef3+ncoef4+ncoef5], b_5, wv='db5')
-        out = out+waverec_asarray(y[ncoef1+ncoef2+ncoef3+ncoef4+ncoef5:ncoef1+ncoef2+ncoef3+ncoef4+ncoef5+ncoef6], b_6, wv='db6')
-        out = out+waverec_asarray(y[ncoef1+ncoef2+ncoef3+ncoef4+ncoef5+ncoef6:ncoef1+ncoef2+ncoef3+ncoef4+ncoef5+ncoef6+ncoef7], b_7, wv='db7')
-        out = out+waverec_asarray(y[ncoef1+ncoef2+ncoef3+ncoef4+ncoef5+ncoef6+ncoef7:ncoef1+ncoef2+ncoef3+ncoef4+ncoef5+ncoef6+ncoef7+ncoef8], b_8, wv='db8')
-        out = out+np.reshape(y[ncoef1+ncoef2+ncoef3+ncoef4+ncoef5+ncoef6+ncoef7+ncoef8:], b_9)
-        return out/np.sqrt(9)
-    
-    return Psit, Psi
 
 def wavelet_op(im, wav='db8', level=3, test_ajd=False):
     

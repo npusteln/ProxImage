@@ -3,6 +3,7 @@ import numpy as np
 
 
 
+
 def GradientHor(x):
     y=x-np.roll(x,1,axis=1)
     y[:,0]=0

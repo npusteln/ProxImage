@@ -9,27 +9,19 @@ def snr_numpy(xtrue, x):
     return snr
 
 
-def imshow(img, title=None):
-    plt.figure()
-    plt.imshow(img)
-    plt.title(title)
-    plt.show()
-
 def imshowgray(img, title=None):
     plt.figure()
     plt.imshow(img, cmap='gray')
     plt.title(title)
     plt.show()
 
-def save_image_numpy(im, path):
-    """
-    Saves an image im np format
-    """
-    im = np.moveaxis(im, 0, -1)
-    im_bounded = im*255.
-    im_bounded[im_bounded>255.] = 255.
-    im_bounded[im_bounded<0.] = 0.
-    imageio.imwrite(path, np.uint8(im_bounded))
+def imshow(img, title=None):
+    plt.figure()
+    plt.imshow(img)
+    plt.title(title)
+    plt.show()
+
+
 
 
 #* ************************************************************************
