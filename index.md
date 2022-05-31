@@ -32,7 +32,7 @@ Image processing  aims to extract or interpret the information contained in the 
 
 3- Image denoising with Plug-and-Play Forward-Backward
 
-Required packages :
+## Required packages :
 
   * numpy
   
