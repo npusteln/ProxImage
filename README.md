@@ -63,9 +63,8 @@ This course has been created for ["Journées SMAI-MODE 2022, Limoges"](https://i
 
 ## Affiliations and websites of the authors 
 
-Nelly Pustelnik: CNRS, Laboratoire de Physique, ENS de Lyon and INMA, UCLouvain
-http://perso.ens-lyon.fr/nelly.pustelnik/
+[Nelly Pustelnik](http://perso.ens-lyon.fr/nelly.pustelnik/): CNRS, Laboratoire de Physique, ENS de Lyon and INMA, UCLouvain
 
-Audrey Repetti : Heriot-Watt University
-https://sites.google.com/view/audreyrepetti
+[Audrey Repetti](https://sites.google.com/view/audreyrepetti) : Heriot-Watt University
+
 
