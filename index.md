@@ -32,7 +32,7 @@ Image processing  aims to extract or interpret the information contained in the 
 
 2- Image deconvolution considering Forward-Backward algorithm, FISTA and Condat-Vu algorithm - [Notebook](https://github.com/npusteln/ProxImage/blob/main/Python_tutorial/Tutorial_part2.ipynb)
 
-3- Image denoising with Plug-and-Play Forward-Backward - [Notebook](https://github.com/npusteln/ProxImage/blob/main/Python_tutorial/Tutorial_part3.ipynb)
+3- Image denoising and deconvolution with Plug-and-Play Forward-Backward - [Notebook](https://github.com/npusteln/ProxImage/blob/main/Python_tutorial/Tutorial_part3.ipynb)
 
 
 
