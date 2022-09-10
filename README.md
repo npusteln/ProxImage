@@ -71,8 +71,8 @@ This course has been created for ["Journées SMAI-MODE 2022, Limoges"](https://i
 ## Installation
 
 ```bash
-conda create -n pnp_tutorial --file requirement.txt
-conda activate pnp_tutorial
+conda create -n prox_tutorial --file Python_tutorial/requirement.txt
+conda activate prox_tutorial
 pip install bm3d
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
 
