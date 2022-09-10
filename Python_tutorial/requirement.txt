@@ -1,0 +1,11 @@
+imageio
+jupyterlab
+matplotlib
+ipykernel
+numba
+numpy
+pillow
+pylops
+PyWavelets
+scipy
+scikit-image

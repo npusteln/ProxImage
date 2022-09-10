@@ -68,4 +68,26 @@ This course has been created for ["Journées SMAI-MODE 2022, Limoges"](https://i
 
 [Audrey Repetti](https://sites.google.com/view/audreyrepetti) : Heriot-Watt University, Maxwell Institute, Edinburgh, UK
 
+## Installation
 
+```bash
+conda create -n pnp_tutorial --file requirement.txt
+conda activate pnp_tutorial
+pip install bm3d
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
+
+# for drunet, retrieve pre-trained network from https://github.com/cszn/DPIR/tree/master/model_zoo (with wget)
+mkdir Python_tutorial/checkpoint && cd checkpoint
+# see https://stackoverflow.com/questions/37453841/download-a-file-from-google-drive-using-wget
+wget "drive.google.com/u/3/uc?id=1oSsLjPPn6lqtzraFZLZGmwP_5KbPfTES&export=download&confirm=yes" -O drunet_gray.pth
+
+# run the notebook from jupyterlab
+jupyter lab
+```
+
+Note: Ubuntu users may have to install Open-BLAS to be able to use BM3D, using for instance the following command
+
+```bash
+sudo apt update
+sudo apt install libopenblas-base
+```
